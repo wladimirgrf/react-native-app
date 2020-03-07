@@ -20,21 +20,56 @@ class User extends Component {
   constructor() {
     super().state = {
       stars: [],
+      page: 1,
+      refreshing: false,
     };
   }
 
   async componentDidMount() {
+    this.handleLoad();
+  }
+
+  handleLoad = async () => {
     const { navigation } = this.props;
+    const { stars, page } = this.state;
+
+    console.tron.log(`page:${page}`);
+
     const user = navigation.getParam('user');
 
-    const response = await api.get(`/users/${user.login}/starred`);
+    const response = await api.get(`/users/${user.login}/starred`, {
+      params: { page },
+    });
 
-    this.setState({ stars: response.data });
-  }
+    this.setState({
+      stars: page >= 2 ? [...stars, ...response.data] : response.data,
+      page,
+      refreshing: false,
+    });
+  };
+
+  handleLoadMore = () => {
+    this.setState(
+      state => ({
+        page: state.page + 1,
+      }),
+      this.handleLoad
+    );
+  };
+
+  handleRefresh = () => {
+    this.setState(
+      {
+        refreshing: true,
+        stars: [],
+      },
+      this.handleLoad
+    );
+  };
 
   render() {
     const { navigation } = this.props;
-    const { stars } = this.state;
+    const { stars, refreshing } = this.state;
     const user = navigation.getParam('user');
 
     return (
@@ -47,6 +82,10 @@ class User extends Component {
 
         <Stars
           data={stars}
+          onRefresh={this.handleRefresh}
+          refreshing={refreshing}
+          onEndReachedThreshold={0}
+          onEndReached={this.handleLoadMore}
           keyExtractor={star => String(star.id)}
           renderItem={({ item }) => (
             <Starred>
