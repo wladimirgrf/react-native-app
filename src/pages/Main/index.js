@@ -20,16 +20,6 @@ import {
 } from './styles';
 
 class Main extends Component {
-  static propTypes = {
-    navigation: PropTypes.shape({
-      navigate: PropTypes.func,
-    }).isRequired,
-  };
-
-  static navigationOptions = {
-    title: 'Users',
-  };
-
   constructor() {
     super().state = {
       newUser: '',
@@ -125,5 +115,15 @@ class Main extends Component {
     );
   }
 }
+
+Main.propTypes = {
+  navigation: PropTypes.shape({
+    navigate: PropTypes.func,
+  }).isRequired,
+};
+
+Main.navigationOptions = {
+  title: 'Users',
+};
 
 export default Main;

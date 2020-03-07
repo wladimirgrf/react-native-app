@@ -9,12 +9,6 @@ class User extends Component {
     title: navigation.getParam('user').name,
   });
 
-  static propTypes = {
-    navigation: PropTypes.shape({
-      getParam: PropTypes.func,
-    }).isRequired,
-  };
-
   constructor() {
     super().state = {
       stars: [],
@@ -36,5 +30,11 @@ class User extends Component {
     return <View />;
   }
 }
+
+User.propTypes = {
+  navigation: PropTypes.shape({
+    getParam: PropTypes.func,
+  }).isRequired,
+};
 
 export default User;
