@@ -18,6 +18,10 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
+<p align="center">
+  <img alt="App" src="layout/reactNativeApp.png" width="100%">
+</p>
+
 ## 🚀 Instalação e execução
 
 1. <a href="https://docs.rocketseat.dev/ambiente-react-native/introducao">Configure seu ambiente de desenvolvimento;</a>
@@ -39,4 +43,3 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
----
