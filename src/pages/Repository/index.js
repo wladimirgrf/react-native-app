@@ -7,13 +7,11 @@ function Repository({ navigation }) {
   const uri = navigation.getParam('uri');
 
   return (
-    <>
-      <Browser
-        renderLoading={() => <Loading />}
-        startInLoadingState
-        source={{ uri }}
-      />
-    </>
+    <Browser
+      renderLoading={() => <Loading />}
+      startInLoadingState
+      source={{ uri }}
+    />
   );
 }
 
@@ -22,5 +20,9 @@ Repository.propTypes = {
     getParam: PropTypes.func,
   }).isRequired,
 };
+
+Repository.navigationOptions = () => ({
+  headerBackTitle: '',
+});
 
 export default Repository;
