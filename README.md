@@ -20,10 +20,11 @@
 
 ## 🚀 Instalação e execução
 
-1. Faça um clone desse repositório;
-2. Entre na pasta rodando `cd reactNativeApp`;
-3. Rode `yarn` para instalar as dependências;
-4. Rode `yarn react-native run-ios` ou `yarn react-native run-android` dependendo do SO.
+1. <a href="https://docs.rocketseat.dev/ambiente-react-native/introducao" target="_blank">Configure seu ambiente de desenvolvimento;</a>
+2. Faça um clone desse repositório;
+3. Entre na pasta rodando `cd reactNativeApp`;
+4. Rode `yarn` para instalar as dependências;
+5. Rode `yarn react-native run-ios` ou `yarn react-native run-android` dependendo do SO.
 
 ## 🤔 Como contribuir
 
