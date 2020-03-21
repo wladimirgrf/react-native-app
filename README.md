@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
+    <img alt="React Native" src=".github/logonative.svg" width="100px" />
 </h1>
 
 <h3 align="center">
