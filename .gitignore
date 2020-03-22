@@ -20,8 +20,6 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-reactnativeapp.xcodeproj
-reactnativeapp.xcworkspace
 
 # Android/IntelliJ
 #
@@ -59,6 +57,5 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
-/ios/Podfile*
 
 
