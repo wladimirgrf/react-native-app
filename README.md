@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="React Native" src=".github/logonative.svg" width="100px" />
+    <img alt="Logo" src=".github/logonative.svg" width="100px" />
 </h1>
 
 <h3 align="center">
@@ -11,7 +11,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/wladimirfrost/reactNativeApp">
 
-  <a href="https://github.com/Rocketseat/semana-omnistack-10/issues">
+  <a href="https://github.com/wladimirfrost/reactNativeApp/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/wladimirfrost/reactNativeApp">
   </a>
 
