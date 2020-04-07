@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Primeiro projeto com React Native
+  First React Native App
 </h3>
 
 <p align="center">
