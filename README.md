@@ -22,13 +22,13 @@
   <img alt="Frontend" src=".github/reactNativeApp.png" width="100%">
 </p>
 
-## 🚀 Instalação e execução
+## 💻 Getting started
 
-1. <a href="https://docs.rocketseat.dev/ambiente-react-native/introducao">Configure seu ambiente de desenvolvimento;</a>
-2. Faça um clone desse repositório;
-3. Entre na pasta rodando `cd reactNativeApp`;
-4. Rode `yarn` para instalar as dependências;
-5. Rode `yarn react-native run-ios` ou `yarn react-native run-android` dependendo do SO.
+1. <a href="https://docs.rocketseat.dev/ambiente-react-native/introducao">Set up your development environment;</a>
+2. Clone the repository;
+3. Move into the project folder: `cd reactNativeApp`;
+4. Run `yarn` to install all the dependencies;
+5. Run `yarn react-native run-ios` or `yarn react-native run-android` for the OS you had choose.
 
 ## 🤝 Contributing
 
