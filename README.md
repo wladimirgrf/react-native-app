@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img alt="React Native" src=".github/logonative.svg" width="100px" />
+    <img alt="ReactNativeApp" src=".github/logonative.svg" width="100px" />
 </h1>
 
 <h3 align="center">
-  Primeiro projeto com React Native
+  First React Native App
 </h3>
 
 <p align="center">
@@ -11,7 +11,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/wladimirfrost/reactNativeApp">
 
-  <a href="https://github.com/Rocketseat/semana-omnistack-10/issues">
+  <a href="https://github.com/wladimirfrost/reactNativeApp/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/wladimirfrost/reactNativeApp">
   </a>
 
@@ -19,27 +19,27 @@
 </p>
 
 <p align="center">
-  <img alt="AppNative" src=".github/reactNativeApp.png" width="100%">
+  <img alt="Frontend" src=".github/reactNativeApp.png" width="100%">
 </p>
 
-## 🚀 Instalação e execução
+## 💻 Getting started
 
-1. <a href="https://docs.rocketseat.dev/ambiente-react-native/introducao">Configure seu ambiente de desenvolvimento;</a>
-2. Faça um clone desse repositório;
-3. Entre na pasta rodando `cd reactNativeApp`;
-4. Rode `yarn` para instalar as dependências;
-5. Rode `yarn react-native run-ios` ou `yarn react-native run-android` dependendo do SO.
+1. <a href="https://docs.rocketseat.dev/ambiente-react-native/introducao">Set up your development environment;</a>
+2. Clone the repository;
+3. Move into the project folder: `cd reactNativeApp`;
+4. Run `yarn` to install all the dependencies;
+5. Run `yarn react-native run-ios` or `yarn react-native run-android` for the OS you had choose.
 
-## 🤔 Como contribuir
+## 🤝 Contributing
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+- Fork the repository;
+- Create a branch for your edits: `git checkout -b new-feature`;
+- Commit changes to your own branch: `git commit -m 'feat: New feature'`;
+- Push the change back to your fork: `git push origin new-feature`;
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+Submit a Pull request. We will review and merge your change.
 
-## :memo: Licença
+## :memo: License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is licensed under the MIT license. See the [LICENSE](LICENSE.md) file for details.
 
