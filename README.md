@@ -24,7 +24,7 @@
 
 ## 💻 Getting started
 
-1. <a href="https://docs.rocketseat.dev/ambiente-react-native/introducao">Set up your development environment;</a>
+1. <a href="https://react-native.rocketseat.dev">Set up your development environment;</a>
 2. Clone the repository;
 3. Move into the project folder: `cd react-native-app`;
 4. Run `yarn` to install all the dependencies;
